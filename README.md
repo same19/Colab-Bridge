@@ -20,9 +20,9 @@ The single entry point is `colab_bridge/direct_kernel.py`.
 ```bash
 conda create -n myenv python=3.11 -y
 conda activate myenv
-pip install git+https://github.com/sam-engel/Colab-Bridge.git
+pip install git+https://github.com/same19/Colab-Bridge.git
 # With GCS upload/download helpers:
-pip install 'git+https://github.com/sam-engel/Colab-Bridge.git#egg=colab_bridge[gcs]'
+pip install 'git+https://github.com/same19/Colab-Bridge.git#egg=colab_bridge[gcs]'
 ```
 
 ### Option B — venv
@@ -30,13 +30,13 @@ pip install 'git+https://github.com/sam-engel/Colab-Bridge.git#egg=colab_bridge[
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install git+https://github.com/sam-engel/Colab-Bridge.git
+pip install git+https://github.com/same19/Colab-Bridge.git
 ```
 
 ### Option C — editable install from a local clone (for hacking on `direct_kernel.py`)
 
 ```bash
-git clone https://github.com/sam-engel/Colab-Bridge.git
+git clone https://github.com/same19/Colab-Bridge.git
 cd Colab-Bridge
 pip install -e .
 # Or with GCS extras:
