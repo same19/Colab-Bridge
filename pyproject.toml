@@ -22,9 +22,9 @@ dependencies = [
 gcs = ["google-cloud-storage"]
 
 [project.urls]
-Homepage = "https://github.com/sam-engel/Colab-Bridge"
-Repository = "https://github.com/sam-engel/Colab-Bridge"
-Issues = "https://github.com/sam-engel/Colab-Bridge/issues"
+Homepage = "https://github.com/same19/Colab-Bridge"
+Repository = "https://github.com/same19/Colab-Bridge"
+Issues = "https://github.com/same19/Colab-Bridge/issues"
 
 [project.scripts]
 # Registers `colab` in the env's bin dir; resolves to colab_bridge.direct_kernel._cli().
